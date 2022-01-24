@@ -6,7 +6,7 @@ python == 3.8\
 tensorflow-gpu == 2.4.0\
 numpy == 1.19.5
 ## Different dimensions
-We can change the dimension directly by setting **d**.\
+We can change the dimension directly by setting **d**.
 ## Neural network
 We define the multiscale fusion function "_lnn_time_net", and the convolutional network function "_cnn_time_net". 
 If you choose multiscale fusion, use "_lnn_time_net" when updating **A** and **Gamma**; 
